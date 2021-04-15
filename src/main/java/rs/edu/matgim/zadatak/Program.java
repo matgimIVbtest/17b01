@@ -6,6 +6,7 @@ public class Program {
 
         DB _db = new DB();
         _db.printFirma();
-        
+        _db.printUkupnoPopravki();
+         System.out.println(_db.zadatak(9));
     }
 }
