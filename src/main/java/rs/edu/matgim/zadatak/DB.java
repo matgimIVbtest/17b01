@@ -97,7 +97,7 @@ public class DB {
             }
             if(k==1)
             {
-                for(int i=sum+1;i<radnici.size();i++)
+                for(int i=sum;i<radnici.size();i++)
                 {
                     System.out.println(String.format("%d", radnici.get(i)));
                 }
